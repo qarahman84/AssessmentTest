@@ -30,7 +30,7 @@ public class mainExecution {
 		BuySuedeKohler sueKohler=new BuySuedeKohler(driver);
 		sueKohler.suedeKohler();
 		    
-		Thread.sleep(5000);
+		
 		//Add one Cashmere Kohler K-6626-6U to the cart
 		BuyCashmereKohler cashKohler=new BuyCashmereKohler(driver);
 		cashKohler.cashmereKohler();
